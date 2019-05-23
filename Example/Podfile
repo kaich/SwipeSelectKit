@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwipeSelectKit_Example' do
+  pod 'SwipeSelectKit', :path => '../'
+
+  target 'SwipeSelectKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
