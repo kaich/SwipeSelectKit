@@ -1,0 +1,16 @@
+PODS:
+  - SwipeSelectKit (0.1.0)
+
+DEPENDENCIES:
+  - SwipeSelectKit (from `../`)
+
+EXTERNAL SOURCES:
+  SwipeSelectKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwipeSelectKit: 855c8b2240ecbe1a20de14c9a33360b7d427cfac
+
+PODFILE CHECKSUM: 5de0b5c4d5c0d1423536a743a8c1bc0c2a288165
+
+COCOAPODS: 1.6.1

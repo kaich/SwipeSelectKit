@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D25C6BF22967EAA00FAF26F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25C6BE22967EAA00FAF26F /* SecondViewController.swift */; };
+		4D25C6C12296840400FAF26F /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25C6C02296840400FAF26F /* DemoCollectionViewCell.swift */; };
 		4FFC1F73D94A8B2DBC0CDC96 /* Pods_SwipeSelectKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DC1149DFE573B8118891DB /* Pods_SwipeSelectKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,7 +32,9 @@
 /* Begin PBXFileReference section */
 		05BD809D5A311FB2C884A81B /* Pods-SwipeSelectKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSelectKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSelectKit_Example/Pods-SwipeSelectKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		170EC66B9B8944755C2B41AC /* Pods-SwipeSelectKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSelectKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SwipeSelectKit_Example/Pods-SwipeSelectKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		47FB8B05BDB18DD6A25EDA2F /* SwipeSelectKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwipeSelectKit.podspec; path = ../SwipeSelectKit.podspec; sourceTree = "<group>"; };
+		47FB8B05BDB18DD6A25EDA2F /* SwipeSelectKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwipeSelectKit.podspec; path = ../SwipeSelectKit.podspec; sourceTree = "<group>"; };
+		4D25C6BE22967EAA00FAF26F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4D25C6C02296840400FAF26F /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwipeSelectKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeSelectKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +45,10 @@
 		607FACE51AFB9204008FA782 /* SwipeSelectKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeSelectKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7FF452B3EE36E5F62AA9A337 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7FF452B3EE36E5F62AA9A337 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A294EE57098709127D8E9B58 /* Pods_SwipeSelectKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSelectKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD28E97C728C757C5A0E92A /* Pods-SwipeSelectKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSelectKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSelectKit_Tests/Pods-SwipeSelectKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D61E050D358586F1039AD772 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D61E050D358586F1039AD772 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E1DC1149DFE573B8118891DB /* Pods_SwipeSelectKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSelectKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3315E8100AB48E70DF4DADB /* Pods-SwipeSelectKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSelectKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSelectKit_Tests/Pods-SwipeSelectKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				4D25C6BE22967EAA00FAF26F /* SecondViewController.swift */,
+				4D25C6C02296840400FAF26F /* DemoCollectionViewCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +153,6 @@
 				CDD28E97C728C757C5A0E92A /* Pods-SwipeSelectKit_Tests.debug.xcconfig */,
 				F3315E8100AB48E70DF4DADB /* Pods-SwipeSelectKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 28267N5PG9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 28267N5PG9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -335,8 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D25C6BF22967EAA00FAF26F /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4D25C6C12296840400FAF26F /* DemoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,13 +492,14 @@
 			baseConfigurationReference = 05BD809D5A311FB2C884A81B /* Pods-SwipeSelectKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28267N5PG9;
 				INFOPLIST_FILE = SwipeSelectKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -497,13 +508,14 @@
 			baseConfigurationReference = 170EC66B9B8944755C2B41AC /* Pods-SwipeSelectKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28267N5PG9;
 				INFOPLIST_FILE = SwipeSelectKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -511,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDD28E97C728C757C5A0E92A /* Pods-SwipeSelectKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 28267N5PG9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -524,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeSelectKit_Example.app/SwipeSelectKit_Example";
 			};
 			name = Debug;
@@ -533,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3315E8100AB48E70DF4DADB /* Pods-SwipeSelectKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 28267N5PG9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -542,7 +556,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeSelectKit_Example.app/SwipeSelectKit_Example";
 			};
 			name = Release;

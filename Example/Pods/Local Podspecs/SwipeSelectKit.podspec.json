@@ -1,0 +1,22 @@
+{
+  "name": "SwipeSelectKit",
+  "version": "0.1.0",
+  "summary": "A short description of SwipeSelectKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengkai1853@163.com/SwipeSelectKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengkai1853@163.com": "chengkai1853@163.com"
+  },
+  "source": {
+    "git": "https://github.com/chengkai1853@163.com/SwipeSelectKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwipeSelectKit/Classes/**/*"
+}

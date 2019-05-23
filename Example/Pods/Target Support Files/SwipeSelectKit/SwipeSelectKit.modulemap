@@ -1,0 +1,6 @@
+framework module SwipeSelectKit {
+  umbrella header "SwipeSelectKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
